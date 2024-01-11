@@ -1,0 +1,22 @@
+body {
+    background-color: var(--mainBg);
+    overflow-x: hidden;
+}
+
+.green {
+	color: var(--green);
+}
+.small {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 1vw;
+    letter-spacing: 1vw;
+    font-family: var(--abel);
+    color: var(--ivory);
+    text-transform: uppercase;
+}
+.dot {
+    font-family: var(--dot);
+    font-size: 7vw;
+    transform: rotate(180deg);
+}

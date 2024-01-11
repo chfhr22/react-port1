@@ -1,0 +1,38 @@
+#section03 {
+    position: relative;
+    z-index: 200;
+    padding: 10% 0 15%; 
+    background-color: var(--mainBg);
+  }
+  .stack__wrap .small {
+    padding: 0 10%;
+  }
+  .stack__wrap ul {
+    border-top: 1px solid var(--ivory-op);
+  }
+  .stack__wrap li {
+    border-bottom: 1px solid var(--ivory-op);
+    color: var(--ivory);
+    font-family: var(--gmarket);
+    font-weight: 700;
+    font-size: 7vw;
+    padding-left: 10%;
+    margin-left: -8px;
+    padding-top: 1vw;
+    overflow: hidden;
+  }
+
+  .stack-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stack-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--green);
+    z-index: -1;
+  }

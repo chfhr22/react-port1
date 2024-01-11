@@ -1,0 +1,41 @@
+#section01 {
+  height: 100vh;
+
+  .intro__wrap {
+    width: 100%;
+    height: 100%;
+
+    .intro__mask,
+    .intro__text {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 7vw;
+      font-weight: 700;
+      font-family: var(--gmarket);
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    .intro__mask {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      mask-image: url(../../img/mask.svg);
+      mask-size: 50px;
+      mask-repeat: no-repeat;
+      background-color: var(--green);
+
+      .small {
+        color: var(--black);
+      }
+    }
+    .intro__text {
+      color: var(--ivory);
+    }
+  }
+}

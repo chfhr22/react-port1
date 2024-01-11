@@ -1,0 +1,17 @@
+#section08 {
+    z-index: 1000;
+    position: relative;
+    background-color: var(--ivory);
+    padding: 5% 0;
+    height: 50vh;
+  }
+  .contact__wrap {
+    padding: 0 5%;
+  }
+  .contact__wrap .small {
+    color: var(--black);
+  }
+  .mail > div,
+  .git > div {
+    font-weight: 700;
+  }

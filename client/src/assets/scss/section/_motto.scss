@@ -1,0 +1,56 @@
+#section06 {
+    position: relative;
+    z-index: 200;
+    background-image: url(https://images.unsplash.com/photo-1522703671694-8ed73c2d4b80?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+  }
+  #section06::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000000ba;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .motto__wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    .motto__mask,
+    .motto__text {
+      font-family: var(--gmarket);
+      line-height: 1.4;
+      font-weight: 700;
+      margin-left: -5px;
+      font-size: 3.6vw;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        padding: 10%;
+      }
+    }
+  }
+  .motto__wrap .motto__mask {
+    position: absolute;
+    color: var(--white);
+    font-weight: 500;
+    mask-image: url(../../img/mask.svg);
+    mask-size: 50px;
+    mask-repeat: no-repeat;
+    background-color: var(--green);
+    cursor: default;
+    z-index: 10;
+    
+  }
+  .motto__wrap .motto__text {
+    color: var(--ivory);
+  }
