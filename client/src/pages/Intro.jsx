@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import useMouse from '../util/useMouse'
 import {motion} from 'framer-motion'
+import IntroBg from '../assets/script/js/introBg';
 
 const Intro = () => {
     const [isHovered, setIsHovered] = useState(false);
@@ -10,6 +11,7 @@ const Intro = () => {
 
     return (
         <section id='section01' ref={section1Ref}>
+
             <div className='intro__wrap'>
                 <motion.div 
                     className='intro__mask'
@@ -23,7 +25,7 @@ const Intro = () => {
                     onMouseEnter={() => {setIsHovered(true)}} 
                     onMouseLeave={() => {setIsHovered(false)}}
                 >
-                    <div className='small'>GREEN</div>
+                    <div className='small'>초 록</div>
                     <div>창의적인</div>
                     <div>웹</div>
                     <div>디벨로퍼 포트폴리오</div>
@@ -42,6 +44,7 @@ const Intro = () => {
 
             </div>
         </section>
+        
     )
 }
 

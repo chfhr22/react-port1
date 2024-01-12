@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 
 const Motto = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const size = isHovered ? 400 : 50;
+  const size = isHovered ? 400 : 0;
   const section1Ref = useRef(null);
   const {x, y} = useMouse(section1Ref);
 

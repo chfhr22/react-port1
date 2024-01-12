@@ -2,7 +2,7 @@
     position: relative;
     z-index: 200;
     background-color: var(--mainBg);
-    padding: 10% 5%;
+    padding: 10%;
   }
   .work__wrap {
     border-top: 1px solid var(--ivory-op);
@@ -10,44 +10,60 @@
   .work__item {
     color: var(--ivory);
     margin-bottom: 10px;
-    padding: 10%;
+    // padding: 10%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--ivory-op);
     width: 100%;
     height: 100%;
   }
+  .work__item .left {
+    width: 60%;
+  }
+  .work__mask,
+  .work__text {
+    font-family: var(--gmarket);
+    font-size: 3vw;
+    margin-left: -5px;
+  }
   .work__mask {
     position: absolute;
-    font-size: 3vw;
     color: var(--black);
-    font-family: var(--gmarket);
     font-weight: 500;
-    padding-top: 8px;
-    margin-left: -5px;
-    width: 40%;
-    word-break: keep-all;
-
+    z-index: 20;
     mask-image: url(../../img/mask.svg);
     mask-size: 50px;
     mask-repeat: no-repeat;
     background-color: var(--green);
-    cursor: default;
-    width: 100%;
+    width: 50vw;
     height: 100%;
   }
-  .work__item .left {
-    width: 60%;
-  }
   .work__text {
-    position: relative;
-    font-size: 3vw;
-    font-family: var(--gmarket);
     font-weight: 700;
-    margin-left: -5px;
+    padding: 10%;
+    font-size: 2.5vw;
+
+    .work__info {
+      font-size: 1vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1vw;
+    }
   }
   .work__text .dot {
     position: absolute;
     left: -13%;
     top: -15%;
   }
+  .work__item .right {
+    width: 40%;
+  }
+.work__img {
+  transition: opacity 0.3s ease;
+  background-image: url(../../img/youtube.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}

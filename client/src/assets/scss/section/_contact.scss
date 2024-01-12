@@ -1,17 +1,44 @@
 #section08 {
-    z-index: 1000;
-    position: relative;
-    background-color: var(--ivory);
-    padding: 5% 0;
-    height: 50vh;
-  }
-  .contact__wrap {
-    padding: 0 5%;
-  }
-  .contact__wrap .small {
-    color: var(--black);
-  }
-  .mail > div,
-  .git > div {
-    font-weight: 700;
-  }
+  z-index: 1000;
+  position: relative;
+  background-color: var(--ivory);
+  padding: 5% 0;
+  height: 50vh;
+}
+.contact__wrap {
+  padding: 0 5%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__wrap .small {
+  color: var(--black);
+  width: 100%;
+}
+.contact__wrap .left {
+  width: 50%;
+  height: 100%;
+}
+.contact__wrap .left .send__text {
+  font-size: 4vw;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contact__wrap .left .send {
+  width: 70%;
+  border-bottom: 1px solid var(--black);
+  margin-top: 70px;
+}
+.contact__wrap .right {
+  width: 50%;
+  height: 100%;
+}
+.contact__info .site {
+  font-size: 2vw;
+  font-weight: 800;
+}
+.contact__info .info {
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}

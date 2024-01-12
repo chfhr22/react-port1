@@ -34,21 +34,24 @@
       justify-content: center;
       align-items: center;
 
-      p {
-        padding: 10%;
-      }
+      // p {
+      //   padding: 10%;
+      // }
     }
   }
   .motto__wrap .motto__mask {
     position: absolute;
-    color: var(--white);
-    font-weight: 500;
+    color: var(--black);
     mask-image: url(../../img/mask.svg);
     mask-size: 50px;
     mask-repeat: no-repeat;
     background-color: var(--green);
     cursor: default;
     z-index: 10;
+
+    .small {
+      color: var(--black);
+    }
     
   }
   .motto__wrap .motto__text {

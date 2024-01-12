@@ -24,7 +24,7 @@ const About = () => {
                 onMouseEnter={() => {setIsHovered(true)}} 
                 onMouseLeave={() => {setIsHovered(false)}}
                 >
-                    <div className='small'>about</div>
+                    <div className='small'>about me</div>
                     <div>나는 흐름을 주도하는 풀스택 령정 개발자입니다. </div>
                     <div>모든 열정과 결정에 다 같이 지식과 열정을 바칩니다. </div>
                     <div>혁신적이고 사용자 중심적인 소프트웨어 제작합니</div>
@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <div className="about__text">
                 <p>
-                    <div className='small'>about</div>
+                    <div className='small'>about me</div>
                     <div>I am a <i className='green'>full-stack developer</i> driven by </div>
                     <div>knowledge and passion, dedicated to </div>
                     <div>crafting innovative & user-centric software </div>
