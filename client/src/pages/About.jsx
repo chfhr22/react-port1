@@ -10,8 +10,8 @@ const About = () => {
 
   return (
     <section id="section02" ref={section2Ref}>
-        <motion.div className="about__wrap">
-            <div 
+        <div className="about__wrap">
+            <motion.div 
                 className="about__mask"
                 animate={{
                 WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
@@ -29,22 +29,24 @@ const About = () => {
                     <div>모든 열정과 결정에 다 같이 지식과 열정을 바칩니다. </div>
                     <div>혁신적이고 사용자 중심적인 소프트웨어 제작합니</div>
                 </p>
-            </div>
+            </motion.div>
             <div className="about__text">
                 <p>
                     <div className='small'>about me</div>
                     <div>I am a <i className='green'>full-stack developer</i> driven by </div>
                     <div>knowledge and passion, dedicated to </div>
-                    <div>crafting innovative & user-centric software </div>
+                    <div>crafting innovative & user-centric </div>
                 </p>
             </div>
-        </motion.div>
+        </div>
         <div className="about__img__wrap">
-            <div className="about__img__mask">
-                <div className="about__img__mask"></div>
-                <div className="about__img__mask"></div>
-                <div className="about__img__mask"></div>
-            </div>
+            <motion.div className="about__img__mask">
+                <div>
+                    <div className="img__mask"></div>
+                    <div className="img__mask"></div>
+                    <div className="img__mask"></div>
+                </div>
+            </motion.div>
             <div className="about__img">
                 <div className="img"></div>
                 <div className="img"></div>

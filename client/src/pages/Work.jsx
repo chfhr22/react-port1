@@ -45,7 +45,7 @@ const Work = () => {
                     <div class="work__text">
                         <div class="dot">"</div>
                         <div>유튜브를 이용하여 데이터를 불러오고 뿌리는 방법을 익혔습니다.</div>
-                        <div>youtube <i className='green'>API</i>를 호출하여 반복문을 통하여 화면에 노출하고</div>
+                        <div>youtube 를 호출하여 반복문을 통하여 화면에 노출하고</div>
                         <div>세부적인 사항을 고려하여 작성했습니다.</div>
                         <div class="work__info">
                             <Link to="/">VIEW SITE : https://cssgradient.io/ </Link>

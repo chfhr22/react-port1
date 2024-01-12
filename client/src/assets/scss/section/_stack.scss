@@ -1,8 +1,10 @@
 #section03 {
     position: relative;
     z-index: 200;
-    padding: 10% 0 15%; 
+    // padding: 10% 0 15%; 
+    padding: 5% 0;
     background-color: var(--mainBg);
+    margin-top: 80vh;
   }
   .stack__wrap .small {
     padding: 0 10%;
@@ -18,13 +20,14 @@
     font-size: 7vw;
     padding-left: 10%;
     margin-left: -8px;
-    padding-top: 1vw;
+    line-height: 0.7;
     overflow: hidden;
-  }
-
-  .stack-item {
     position: relative;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.4vw;
   }
   
   .stack-bg {
@@ -35,4 +38,10 @@
     bottom: 0;
     background-color: var(--green);
     z-index: -1;
+  }
+  .tech__desc {
+    font-size: 1vw;
+    padding-right: 5%;
+    padding-top: -1vw;
+    color: var(--mainBg);
   }
