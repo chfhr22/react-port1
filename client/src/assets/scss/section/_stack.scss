@@ -7,7 +7,7 @@
     margin-top: 20vh;
   }
   .stack__wrap .small {
-    padding: 0 10%;
+    padding: 0 5%;
   }
   .stack__wrap ul {
     border-top: 1px solid var(--ivory-op);
@@ -18,7 +18,7 @@
     font-family: var(--gmarket);
     font-weight: 700;
     font-size: 7vw;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-left: -8px;
     line-height: 0.7;
     overflow: hidden;
@@ -28,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1.4vw;
+    text-transform: uppercase;
   }
   
   .stack-bg {
@@ -42,6 +43,8 @@
   .tech__desc {
     font-size: 1vw;
     padding-right: 5%;
-    padding-top: -1vw;
+    line-height: 1;
     color: var(--mainBg);
+    display: flex;
+    text-align: right;
   }

@@ -4,7 +4,6 @@ import About from './pages/About'
 import Stack from './pages/Stack'
 import Work from './pages/Work'
 import Motto from './pages/Motto'
-import Comment from './pages/Comment'
 import Contact from './pages/Contact'
 
 const App = () => {
@@ -15,7 +14,6 @@ const App = () => {
         <Stack />
         <Work />
         <Motto />
-        <Comment />
         <Contact />
     </>
   )

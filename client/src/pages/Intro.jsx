@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react'
 import useMouse from '../util/useMouse'
 import {motion} from 'framer-motion'
-import IntroBg from '../assets/script/js/introBg';
 
 const Intro = () => {
     const [isHovered, setIsHovered] = useState(false);

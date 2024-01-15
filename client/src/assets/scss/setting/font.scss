@@ -2,6 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
 
 @font-face {
+    font-family: "theJamsil";
+    font-weight: 100;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Thin.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "theJamsil";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/theJamsil/theJamsil-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'GmarketSans';
     font-weight: 300;
     font-style: normal;
