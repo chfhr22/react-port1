@@ -3,8 +3,16 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
 
 import youtube from '../assets/img/youtube.jpg';
-import port from '../assets/img/port.jpg';
-import img2 from '../assets/img/img2.jpg';
+// import youtube01 from '../assets/img/youtube01.jpg';
+// import port from '../assets/img/port.jpg';
+import port01 from '../assets/img/port01.jpg';
+// import movie from '../assets/img/movie.jpg';
+import movie01 from '../assets/img/movie01.jpg';
+// import petpar from '../assets/img/petpar.jpg';
+import petpar01 from '../assets/img/petpar01.jpg';
+// import quiz from '../assets/img/quiz.jpg';
+import quiz01 from '../assets/img/quiz01.jpg';
+
 
 
 const Work = () => {
@@ -40,7 +48,7 @@ const Work = () => {
             ),
             site: 'https://cssgrLinkdient.io/',
             git: 'https://github.com/chfhr22',
-            src: img2
+            src: petpar01
         },
         {
             title: 'PHP site',
@@ -51,7 +59,7 @@ const Work = () => {
             ),
             site: 'https://cssgrLinkdient.io/',
             git: 'https://github.com/chfhr22',
-            src: img2
+            src: quiz01
         },
         {
             title: 'youtube site',
@@ -73,7 +81,7 @@ const Work = () => {
             ),
             site: 'https://cssgrLinkdient.io/',
             git: 'https://github.com/chfhr22',
-            src: port
+            src: movie01
         },
         {
             title: 'portfolio',
@@ -84,7 +92,7 @@ const Work = () => {
             ),
             site: 'https://cssgrLinkdient.io/',
             git: 'https://github.com/chfhr22',
-            src: port
+            src: port01
         },
     ]
     
@@ -102,12 +110,16 @@ const Work = () => {
             <div className="work__wrap">
 
                 {texts.map((text, index) => (
-                    <div className="work__item" key={index}>
-                        <div class="left">
+                    <div 
+                    className="work__item" 
+                    key={index}
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                    >
+                        <div className="left">
                             <div
                                 className="work__text"
-                                onMouseEnter={() => handleMouseEnter(index)}
-                                onMouseLeave={handleMouseLeave}
+      
                             >
                                 <div>{text.desc}</div>
                             </div>

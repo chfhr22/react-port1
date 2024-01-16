@@ -19,13 +19,14 @@
       line-height: 1;
       text-transform: uppercase;
       z-index: 20;
-    }
-
-    .intro__mask {
       position: absolute;
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    .intro__mask {
+      z-index: 100;
       mask-image: url(../../img/mask.svg);
       mask-size: 50px;
       mask-repeat: no-repeat;

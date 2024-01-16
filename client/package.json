@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@react-three/fiber": "^8.15.13",
+    "@studio-freight/lenis": "^1.0.33",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,7 +16,7 @@
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "sass": "^1.69.7",
-    "three": "^0.160.0",
+    "three": "^0.126.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

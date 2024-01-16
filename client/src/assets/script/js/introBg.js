@@ -62,7 +62,7 @@ const IntroBg = () => {
                 // 텍스처 URL
                 "https://static.vecteezy.com/system/resources/previews/010/884/548/original/dense-fluffy-puffs-of-white-smoke-and-fog-on-transparent-background-abstract-smoke-clouds-movement-blurred-out-of-focus-smoking-blows-from-machine-dry-ice-fly-fluttering-in-air-effect-texture-png.png",
                 function (texture) {
-                    let cloudGeo = new THREE.BufferGeometry(500, 500);
+                    let cloudGeo = new THREE.PlaneBufferGeometry(500, 500);
                     let cloudMaterial = new THREE.MeshLambertMaterial({
                         map: texture,
                         transparent: true
