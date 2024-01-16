@@ -38,7 +38,7 @@ const Stack = () => {
   return (
     <section id="section03">
       <div className="stack__wrap">
-        <h3 className="small">stack</h3>
+        <h3 className="small">what i do</h3>
         <ul>
           {technologies.map((tech, index) => (
             <motion.li key={index} className="stack-item" initial="initial" whileHover="animate" variants={textAnimation}>

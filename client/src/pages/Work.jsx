@@ -106,7 +106,7 @@ const Work = () => {
     
     return (
         <section id="section05">
-            <h3 className="small">work</h3>
+            <h3 className="small">portfolio</h3>
             <div className="work__wrap">
 
                 {texts.map((text, index) => (

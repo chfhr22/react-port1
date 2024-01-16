@@ -7,6 +7,11 @@ const Contact = () => {
             <div className='small'>contact</div>
             <div className="contact__wrap">
                 <ul>
+                    <li><Link to="/">github</Link></li>
+                    <li><Link to="/">codepen</Link></li>
+                    <li><Link to="/">behance</Link></li>
+                </ul>
+                <ul>
                     <li><Link to="/">youtube site</Link></li>
                     <li><Link to="/">movie site</Link></li>
                     <li><Link to="/">pet site</Link></li>
@@ -23,7 +28,6 @@ const Contact = () => {
                 </ul>
                 <ul>
                     <li><Link to="/"><em>email</em>chfhrdk_1@naver.com</Link></li>
-                    <li><Link to="/"><em>github</em>https://github.com/chfhr22</Link></li>
                     <li><Link to="/"><em>kakao</em>chfhrdk_1</Link></li>
                 </ul>
             </div>

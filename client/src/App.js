@@ -5,6 +5,7 @@ import Stack from './pages/Stack'
 import Work from './pages/Work'
 import Motto from './pages/Motto'
 import Contact from './pages/Contact'
+import Experience from './pages/Experience'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Intro />
         <About />
         <Stack />
+        <Experience />
         <Work />
         <Motto />
         <Contact />

@@ -45,9 +45,9 @@ router.post("/getReple", (req, res) => {
 router.post("/modify", (req, res) => {
     let temp = {
         content: req.body.content,
-        repleId: req.body.repleId
+        // repleId: req.body.repleId
     }
-    Reple.updateOne({ repleNum: Number(req.body.repleNum) }, { $set: temp })
+    Reple.findOneAndUpdate({_id: req.body.repleId}, {$set: temp})
         .exec()
         .then(() => {
             res.status(200).json({ success: true });
