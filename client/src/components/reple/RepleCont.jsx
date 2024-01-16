@@ -63,13 +63,13 @@ const RepleContent = (props) => {
                     {modalFlag && (
                         <div className="edit__modal" ref={ref}>
                             <p onClick={(e) => DeleteHandler(e)}>삭제</p>
-                            {/* <p onClick={() => {
+                            <p onClick={() => {
                                 setEditFlag(true)
                                 setModalFlag(false)
-                            }}>수정</p> */}
+                            }}>수정</p>
                         </div>
                     )}
-                    {/* {editFlag ? (
+                    {editFlag ? (
                         <div>
                             <form>
                                 <input
@@ -88,7 +88,7 @@ const RepleContent = (props) => {
                         </div>
                     ) : (
                         <div></div>
-                    )} */}
+                    )}
                 </div>
         </>
     );
