@@ -17,27 +17,6 @@ import quiz01 from '../assets/img/quiz01.jpg';
 
 const Work = () => {
 
-    const [visibleItem, setVisibleItem] = useState(null);
-
-    const imageVariants = {
-        hidden: {
-            opacity: 0, 
-            y: 200, 
-            transition: {
-                duration: 0.4, 
-                ease: [0.85, 0, 0.15, 1]
-            }
-        },
-        visible: {
-            opacity: 1, 
-            y: 0, 
-            transition: {
-                duration: 0.4, 
-                ease: [0.85, 0, 0.15, 1]
-            }
-        }
-    };
-
     const texts = [
         {
             title: 'react site',
@@ -95,14 +74,7 @@ const Work = () => {
             src: port01
         },
     ]
-    
-    const handleMouseEnter = (index) => {
-        setVisibleItem(index);
-    };
-    
-    const handleMouseLeave = () => {
-        setVisibleItem(null);
-    };
+
     
     return (
         <section id="section05">
@@ -113,8 +85,6 @@ const Work = () => {
                     <div 
                     className="work__item" 
                     key={index}
-                    onMouseEnter={() => handleMouseEnter(index)}
-                    onMouseLeave={handleMouseLeave}
                     >
                         <div className="left">
                             <div
@@ -133,8 +103,6 @@ const Work = () => {
                             <motion.div
                                 className="work__img"
                                 initial="hidden"
-                                animate={visibleItem === index ? "visible" : "hidden"}
-                                variants={imageVariants}
                             >
                                 <img src={text.src} alt={text.title} />
                             </motion.div>

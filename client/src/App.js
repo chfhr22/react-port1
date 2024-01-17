@@ -6,6 +6,7 @@ import Work from './pages/Work'
 import Motto from './pages/Motto'
 import Contact from './pages/Contact'
 import Experience from './pages/Experience'
+import Port from './pages/Port'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
         <About />
         <Stack />
         <Experience />
-        <Work />
+        {/* <Work /> */}
+        <Port />
         <Motto />
         <Contact />
     </>

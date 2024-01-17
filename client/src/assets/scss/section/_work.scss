@@ -36,6 +36,7 @@
             left: -3.5vw;
             top: -2.5vw;
           }
+
         }
 
         .work__info {
@@ -50,15 +51,15 @@
 
       .right {
         width: 35%;
-        height: 500px;
-
+        height: 100%;
 
         .work__img {
           width: 100%;
-          height: 70%;
+          height: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
+          overflow: hidden;
 
           img {
             width: 90%;
@@ -69,4 +70,49 @@
       }
     }
   }
+}
+.work__item.w1 .work__text::after {
+  content: '1';
+    position: absolute;
+    left: -3.5vw;
+    top: -2.5vw;
+    color: #ffffff;
+    font-family: 'GmarketSans';
+    font-size: 3vw;
+}
+.work__item.w2 .work__text::after {
+  content: '2';
+  position: absolute;
+    left: -3.5vw;
+    top: -2.5vw;
+    color: #ffffff;
+    font-family: 'GmarketSans';
+    font-size: 3vw;
+}
+.work__item.w3 .work__text::after {
+  content: '3';
+  position: absolute;
+    left: -3.5vw;
+    top: -2.5vw;
+    color: #ffffff;
+    font-family: 'GmarketSans';
+    font-size: 3vw;
+}
+.work__item.w4 .work__text::after {
+  content: '4';
+  position: absolute;
+    left: -3.5vw;
+    top: -2.5vw;
+    color: #ffffff;
+    font-family: 'GmarketSans';
+    font-size: 3vw;
+}
+.work__item.w5 .work__text::after {
+  content: '5';
+  position: absolute;
+    left: -3.5vw;
+    top: -2.5vw;
+    color: #ffffff;
+    font-family: 'GmarketSans';
+    font-size: 3vw;
 }
