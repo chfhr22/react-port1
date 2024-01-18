@@ -3,7 +3,8 @@ const path = require("path");
 const mongoose = require("mongoose");
 
 const app = express();
-const port = 5050;
+// const port = 5050;
+const port = process.env.PORT || 8080;
 const config = require("./server/config/key.js");
 
 app.use(express.static(path.join(__dirname, "./client/build")));
@@ -13,7 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 // router
 app.use("/api/reple", require("./server/router/reple.js"));
 
-app.listen(port, () => {
+// app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   mongoose
     .connect(config.mongoURI)
     .then(() => {
